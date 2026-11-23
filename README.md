@@ -1,35 +1,40 @@
-# React + TypeScript + Vite
+# Habits List
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A habit-tracking application for creating routines and monitoring daily progress.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Habits List is a React application that helps users create and manage habits while keeping track of their daily progress. Users can mark habits as completed, monitor weekly streaks and navigate between calendar dates to review their activity.
 
-## React Compiler
+The application supports tracking current and past days, without allowing users to mark future dates as completed. It was built with reusable React components and Hooks, including `useState` and `useEffect`, to manage application state and handle date-related functionality.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Project Details
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- **Role:** Frontend Developer
+- **Project Type:** Non-commercial
+- **Category:** Web Application
 
-## Expanding the Oxlint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React
+- JavaScript
+- CSS3
+- HTML5
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Key Features
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- Create and manage habits
+- Mark habits as completed
+- Track weekly streaks
+- Calendar navigation
+- Review current and past activity
+- Future-date completion restrictions
+
+## What I Learned
+
+Developed practical experience with React Hooks, component-based architecture and state management. Improved my skills in handling dates, building interactive interfaces and organizing application logic into reusable components.
+
+
+## Author
+
+Arkadiusz Barnak
