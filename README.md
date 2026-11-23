@@ -17,7 +17,7 @@ The application supports tracking current and past days, without allowing users 
 ## Technologies Used
 
 - React
-- JavaScript
+- TypeScript
 - CSS3
 - HTML5
 
